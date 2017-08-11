@@ -17,3 +17,6 @@ select * from A a,B b where a.p=b.p and a.r=? and a.s=? group by createDate desc
 外面再嵌套一层分页，这个明天需要解决，先丢在这里记录下。
 
 # Q3. where in() 这里的东西非常之多的时候，要怎么处理？暂时用left join来。。。
+业务场景:
+排行榜
+取出按条件筛选的条目，与某表相关的条目，重新排名，取出数据。
