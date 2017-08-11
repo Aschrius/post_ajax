@@ -15,3 +15,5 @@
 今天项目遇到一个之前别人写的sql，发现速度巨慢无比。
 select * from A a,B b where a.p=b.p and a.r=? and a.s=? group by createDate desc
 外面再嵌套一层分页，这个明天需要解决，先丢在这里记录下。
+
+# Q3. where in() 这里的东西非常之多的时候，要怎么处理？暂时用left join来。。。
